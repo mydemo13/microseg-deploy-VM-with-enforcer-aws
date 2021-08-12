@@ -12,7 +12,7 @@ These Terraform templates will deploy a VM on AWS with Enforcer installed and co
     - Under "Auto-registration":
         - For Cloud Provider, choose Azure.
         - For Claims, enter the key=value pairs:
-            - "account==<Your AWS Account ID>"
+            - "account=<Your AWS Account ID>"
             - "rolename=microseg-demo-role"
 
 2. Terraform v1.0 and above
